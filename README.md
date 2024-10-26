@@ -31,17 +31,17 @@ https://studio.youtube.com/video/y71e6WVouvE/edit
 
    https://api.callmebot.com/whatsapp.php?phone=[phone_number]&text=[message]&apikey=[your_apikey]
 5.
-#include <WiFi.h>    
+ #include <WiFi.h>    
 #include <HTTPClient.h>
 #include <UrlEncode.h>
 
-const char* ssid = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid = "NET-MESH-FOREST";
+const char* password = "B4r3f2S2!+";
 
 // +international_country_code + phone number
 // Portugal +351, example: +351912345678
-String phoneNumber = "REPLACE_WITH_YOUR_PHONE_NUMBER";
-String apiKey = "REPLACE_WITH_API_KEY";
+String phoneNumber = "13479935979";
+String apiKey = "5243810";
 
 void sendMessage(String message){
 
